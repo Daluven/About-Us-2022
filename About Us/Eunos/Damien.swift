@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct Damien: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(){
+            Color(red: 50/255, green: 50/255, blue: 100/255)
+            VStack{
+                Text("Hi I'm Damien")
+                    .font(.custom("Atkinson Hyperlegible", size: 24))
+                    .colorInvert()
+            }
+        }
     }
 }
 

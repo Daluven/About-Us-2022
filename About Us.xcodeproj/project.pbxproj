@@ -159,6 +159,7 @@
 		32A9D4E1285C8FB7006CAB9D /* Faith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faith.swift; sourceTree = "<group>"; };
 		32A9D4E3285C8FBA006CAB9D /* Sairam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sairam.swift; sourceTree = "<group>"; };
 		32A9D4E5285C8FC1006CAB9D /* Daniel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daniel.swift; sourceTree = "<group>"; };
+		D97F902F285D889700270677 /* About-Us-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "About-Us-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +192,7 @@
 		324C2E632859B891008D4BB2 /* About Us */ = {
 			isa = PBXGroup;
 			children = (
+				D97F902F285D889700270677 /* About-Us-Info.plist */,
 				324C2E642859B891008D4BB2 /* About_UsApp.swift */,
 				324C2E662859B891008D4BB2 /* ContentView.swift */,
 				32A9D453285C8487006CAB9D /* StudentView.swift */,
@@ -622,11 +624,13 @@
 				DEVELOPMENT_TEAM = XL5JK4F896;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "About-Us-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -651,11 +655,13 @@
 				DEVELOPMENT_TEAM = XL5JK4F896;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "About-Us-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
